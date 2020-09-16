@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "rocco-stoppoloni-eQUdHUB9pD0-unsplash.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "rocco-stoppoloni-eQUdHUB9pD0-unsplash@2x.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "rocco-stoppoloni-eQUdHUB9pD0-unsplash@3x.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
