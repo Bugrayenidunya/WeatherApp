@@ -7,8 +7,12 @@
 //
 
 import UIKit
+import Alamofire
 
 class SearchController: UIViewController {
+    
+    var data: Displayable?
+    var weatherManager = WeatherManager()
     
     //MARK: Outlets
     @IBOutlet weak var searchBar: UISearchBar!
@@ -22,11 +26,24 @@ class SearchController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+//        commonInit()
         
         searchBar.delegate = self
+        
+        weatherManager.fetchWeather(with: "Paris")
+        
+        
+        print("Search Controller Data: ",data as Any)
     }
-    
 
+    /*
+    private func commonInit() {
+        guard let data = data else { return }
+        
+        cityNameLabel.text = data.cityName
+        feelsLikeLabel.text = String("Feels Like: \(data.mainData.feelsLike)")
+    }
+    */
 }
 
 //MARK: - UISearchBarDelegate
