@@ -14,7 +14,7 @@ struct WeatherManager {
     var data: Displayable?
     
     mutating func fetchWeather(with city: String) {
-        let url = "\(K.openWeather.baseUrl)?q=\(city)&appid=\(K.openWeather.apiKey)"
+        let url = "\(Constant.ApiConstants.baseUrl)?q=\(city)&appid=\(Constant.ApiConstants.apiKey)"
         
         let request = AF.request(url)
         
