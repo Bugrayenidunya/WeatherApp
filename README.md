@@ -1,6 +1,6 @@
 # Welcome the WeatherApp!
 
-This repo is a simple Weather App project. It includes Open Weather API.
+This repo is a simple Weather App project. It includes Alamofire & Open Weather API. 
 
 # Requirements
   - iOS 13+
