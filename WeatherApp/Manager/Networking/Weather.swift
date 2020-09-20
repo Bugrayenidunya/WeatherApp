@@ -21,21 +21,3 @@ struct Weather: Decodable {
         case main = "main"
     }
 }
-
-extension Weather: Displayable {
-    var cityName: String {
-        city
-    }
-    
-    var sfSymbolCode: Int {
-        code
-    }
-    
-    var weatherDetails: [WeatherDetail] {
-        weatherDetail
-    }
-    
-    var mainData: Main {
-        main
-    }
-}
