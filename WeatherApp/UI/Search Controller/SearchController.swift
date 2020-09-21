@@ -6,8 +6,8 @@
 //  Copyright © 2020 Bugra. All rights reserved.
 //
 
-import UIKit
 import Alamofire
+import UIKit
 
 class SearchController: UIViewController {
     
