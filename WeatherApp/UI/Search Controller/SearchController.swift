@@ -16,6 +16,7 @@ class SearchController: UIViewController {
     var viewModel = SearchViewModel()
     
     //MARK: Outlets
+    
     @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var cityNameLabel: UILabel!
     @IBOutlet weak var sfSymbolLabel: UIImageView!
